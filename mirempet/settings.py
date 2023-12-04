@@ -28,7 +28,7 @@ DEBUG = True
 
 
 
-ALLOWED_HOSTS = ['https://cc.mirempet.ao','eventos.mirempet.ao','*']
+ALLOWED_HOSTS = ['https://wn.mirempet.ao','wn.mirempet.ao','*']
 
 
 # Application definition
