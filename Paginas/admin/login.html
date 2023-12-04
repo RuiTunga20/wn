@@ -1,0 +1,17 @@
+<!-- myproject/core/templates/admin/login.html -->
+{% extends "admin/login.html" %}
+{% load static %}
+
+{% block branding %}
+  <h1 id="site-name">
+    <a href="{% url 'admin:index' %}">
+      <img src="{% static 'images/Bumbar.png' %}" alt="django-logo-negative.png" width="200px">
+    </a>
+  </h1>
+{% endblock %}
+
+{% block extrastyle %}
+  {{ block.super }}
+  <link rel="stylesheet" type="text/css" href="{% static "css/login.css" %}" />
+  {{ form.media }}
+{% endblock %}
