@@ -448,7 +448,7 @@ def Eventos(request):
 
     return redirect ('/Eventos/1')
 
-def Eventos_detalhes(request,id):
+def Eventos_detalhes(request):
     form=InscricaoForm(request.POST)
 
     if request.POST:

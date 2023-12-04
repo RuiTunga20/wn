@@ -22,21 +22,21 @@ from landpage.views import download_folder
 
 urlpatterns = [
 
-    path('Eventos',home),
-    path('Painel-Controle',admin.site.urls),
-    path('download/<id>', download_folder, name='download'),
-    path('', Eventos, name='download'),
-    path('Eventos/<id>',Eventos_detalhes,),
-    path('Registrar',formulario),
-    path('Registrar-Empresa',formularioEmpresa),
-    path('Registos-entre-empresa',formularioEntreEmpresa),
-    path('Registos-de-Patrocinio',formularioEmpresaPatrocinio),
+    #path('Eventos',home),
+    #path('Painel-Controle',admin.site.urls),
+    #path('download/<id>', download_folder, name='download'),
+    #path('', Eventos, name='download'),
+    path('',Eventos_detalhes,),
+    #path('Registrar',formulario),
+    #path('Registrar-Empresa',formularioEmpresa),
+    #path('Registos-entre-empresa',formularioEntreEmpresa),
+    #path('Registos-de-Patrocinio',formularioEmpresaPatrocinio),
 
 
-    path('convidado/<id>',convidadeo), 
-    path('Pacote-de-participacao',pacoteparticipacao),
-    path('Pacote-de-Patrocinio',patrocinio),
-    path('Empresa-Participante/<id>',formulario_empresa), 
+    #path('convidado/<id>',convidadeo),
+    #path('Pacote-de-participacao',pacoteparticipacao),
+    #path('Pacote-de-Patrocinio',patrocinio),
+    #path('Empresa-Participante/<id>',formulario_empresa),
  
 
 
