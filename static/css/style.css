@@ -226,7 +226,7 @@ img.gdlr-full-boxed-background{ min-height: 100%; min-width: 1024px;
 .gdlr-navigation-gimmick{ position: absolute; bottom: 30px; height: 3px; z-index: -1; }
 
 .gdlr-page-title-wrapper { padding: 90px 0px 85px; position: relative; z-index: 89; line-height: 1;
-	background-image: url('../images/page-title-background.jpg'); background-repeat: repeat; background-position: center; }
+	background-image: url('/static/upload/saia.png'); background-repeat: repeat; background-position: center; }
 .gdlr-page-title-wrapper .gdlr-page-title-overlay{ position: absolute; top: 0px; right: 0px; bottom: 0px; left: 0px; 
 	background: #000; opacity: 0.1; filter: alpha(opacity=10); }
 .gdlr-page-title-wrapper .gdlr-page-title-container{ position: relative; }

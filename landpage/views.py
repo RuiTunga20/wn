@@ -471,7 +471,7 @@ def Eventos_detalhes(request):
 def sobre_detalhes(request):
 
 
-    return render(request, 'index.html')
+    return render(request, 'about-us.html')
 
 
 def formulario(request):
