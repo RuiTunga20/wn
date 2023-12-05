@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from landpage.views import home,Eventos,Eventos_detalhes,formulario,convidadeo,pacoteparticipacao,patrocinio,formularioEmpresa,formularioEntreEmpresa,formularioEmpresaPatrocinio,formulario_empresa
+from landpage.views import *
 from django.conf.urls.static import static
 from django.conf import settings
 from landpage.views import download_folder
@@ -27,7 +27,9 @@ urlpatterns = [
     #path('download/<id>', download_folder, name='download'),
     #path('', Eventos, name='download'),
     path('',Eventos_detalhes,),
-    #path('Registrar',formulario),
+    path('Sobre', sobre_detalhes),
+
+                  #path('Registrar',formulario),
     #path('Registrar-Empresa',formularioEmpresa),
     #path('Registos-entre-empresa',formularioEntreEmpresa),
     #path('Registos-de-Patrocinio',formularioEmpresaPatrocinio),

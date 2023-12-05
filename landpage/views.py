@@ -468,6 +468,12 @@ def Eventos_detalhes(request):
     return render(request,'index_detalhes.html',complex)
 
 
+def sobre_detalhes(request):
+
+
+    return render(request, 'index.html')
+
+
 def formulario(request):
     form=InscricaoForm(request.POST)
 
