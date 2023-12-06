@@ -4,7 +4,7 @@ import qrcode
 
 from mirempet import settings
 
-data = 'https://cc.mirempet.ao/static/pdf/11.05_.pdf'
+data = 'https://wn.mirempet.ao/static/pdf/programa.pdf'
 qr = qrcode.QRCode(
     version=1,
     error_correction=qrcode.constants.ERROR_CORRECT_L,
@@ -15,4 +15,4 @@ qr.add_data(data)
 qr.make(fit=True)
 
 img = qr.make_image(fill_color="black", back_color="white")
-img.save('qr_codetest.png')
+img.save('qr_programa.png')
